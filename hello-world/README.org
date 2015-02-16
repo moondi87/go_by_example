@@ -1,0 +1,7 @@
+
+* Hello world를 출력한다.
+
+#+BEGIN_SRC sh
+$ go run hello-world.go 
+hello world
+#+END_SRC
