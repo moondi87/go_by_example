@@ -1,0 +1,11 @@
+
+* mutex로 동기화하는 방식을 알아본다
+
+#+BEGIN_EXAMPLE
+$ go run mutexes.go 
+ops: 5074223
+state: map[0:27 2:91 3:83 1:4 4:49]
+#+END_EXAMPLE
+
+rand.Intn(n) 함수는 0 ~ n-1 까지의 숫자들을 랜덤으로 출력하며
+n개를 출력한 후 , 더이상 반환하지 않는다.
