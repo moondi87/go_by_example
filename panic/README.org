@@ -1,0 +1,4 @@
+panic
+
+panic은 fatal error를 발생시켜 프로그램을 종료 할 때 쓰인다.
+본 예제에 처럼 error가 발생했을 때, 사용한다.
