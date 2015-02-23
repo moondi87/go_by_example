@@ -1,0 +1,5 @@
+sorting-by-function
+
+sort.Sort() 함수는 퀵소트 힙소트로 구성이 되어있고, 각각의 소팅은
+interface 로 지정되어있는 Len(), Less(), Swap()를 사용한다.
+이번 예제에서는 사용자가 재정의 하여, 글자 길이순으로 sorting하였다.
