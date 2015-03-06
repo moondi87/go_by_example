@@ -1,0 +1,17 @@
+
+* Time
+
+golang 에서는 시간표현이 특이한 편이다.
+time package에 Format함수가 있어서 형식을 지정할 수 있는데
+국내에 익숙한 스타일은 now.Format(time.RFC3339) 이다.
+Sub는 두 시간에서 차이가 나는 만큼의 시간을 반환한다.
+
+#+BEGIN_EXAMPLE
+go_by_example/time $ go run time.go 
+2015-03-06 18:19:32.65140835 +0900 KST
+Fri Mar  6 18:19:32 2015
+2013-11-16 20:30:50.000066666 +0000 UTC
+2013-11-16 20:30:50 UTC
+2013-11-17 05:30:50.000066666 +0900 KST
+11388h48m42.651341684s
+#+END_EXAMPLE
